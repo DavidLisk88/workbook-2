@@ -78,11 +78,11 @@ public class FullNameApplication {
 
      // display all parts of the name with full name
 
-
-     System.out.println("First Name: " + firstName);
-     System.out.println("Middle Name: " + middleName);
-     System.out.println("Last Name: " + lastName);
-     System.out.println("Suffix: " + suffix);
+    System.out.println(firstName + " " + middleName + " " + lastName + " " + suffix);
+     //System.out.println("First Name: " + firstName);
+   //  System.out.println("Middle Name: " + middleName);
+    // System.out.println("Last Name: " + lastName);
+    // System.out.println("Suffix: " + suffix);
 
 
 
