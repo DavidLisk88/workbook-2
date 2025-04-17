@@ -10,6 +10,7 @@ import java.util.Scanner;
 
 public class TheaterReservationsApp {
     public static void main(String[] args) {
+
         // set scanner variable for input
         Scanner userInput = new Scanner(System.in);
 
@@ -17,7 +18,7 @@ public class TheaterReservationsApp {
         DateTimeFormatter formatInput = DateTimeFormatter.ofPattern("MM/dd/yyyy");
 
         // this formatter outputs the date to omit the zeros from the month and day
-       // DateTimeFormatter correctFormat = DateTimeFormatter.ofPattern("M/d/yyyy");
+     //  DateTimeFormatter correctFormat = DateTimeFormatter.ofPattern("M/d/yyyy");
 
         // ask user questions and allow for input. set variables.
         // set name variable in a string.
@@ -39,7 +40,7 @@ public class TheaterReservationsApp {
 
         // define parts of each name
         String firstName = nameParts[0];
-        String lastName = nameParts[1];
+        String lastName = nameParts[nameParts.length - 1];
 
         // ask user for date of the show.
         System.out.println("What is the date of the show (MM/dd/yyyy): ");
